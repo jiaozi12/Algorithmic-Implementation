@@ -47,7 +47,7 @@ class SVM(object):
         self.model.fit(x, y.ravel())
         
      
-mat = loadmat('ex6data2.mat')
+mat = loadmat('data2.mat')
 x = mat['X']
 y = mat['y']
 s = SVM(C=100, kernel='rbf', sigma=0.01)
