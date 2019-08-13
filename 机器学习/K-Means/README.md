@@ -5,9 +5,12 @@ KMeans算法是一种迭代求解的聚类分析算法，其步骤是随机选�
 #### 实现效果
 
 未聚类样本点
+
 ![image](https://github.com/jiaozi12/Algorithmic-Implementation/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/K-Means/image/%E5%8E%9F%E5%A7%8B%E5%9B%BE%E5%83%8F.png)
 
 聚类样本点
+
 ![image](https://github.com/jiaozi12/Algorithmic-Implementation/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/K-Means/image/%E8%81%9A%E7%B1%BB%E5%90%8E.png)
+
 
 详细实现见代码及注释
