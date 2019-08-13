@@ -11,7 +11,7 @@
 
 效果图
 
-[!image] (https://github.com/jiaozi12/Algorithmic-Implementation/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BASVM/image/SVM%E6%95%88%E6%9E%9C%E5%9B%BE.png)
+![image](https://github.com/jiaozi12/Algorithmic-Implementation/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BASVM/image/SVM%E6%95%88%E6%9E%9C%E5%9B%BE.png)
 
 2.对鸢尾花进行分类
 
@@ -22,7 +22,7 @@
 
 效果图
 
-[!image]()
+![image]()
 
 说明
 
