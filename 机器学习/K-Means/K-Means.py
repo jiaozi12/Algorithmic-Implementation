@@ -93,7 +93,7 @@ class KMeans(object):
         for rand in range(rand_num):
             '''随机生成K个不同的数字作为下标，将每个下标所对应的点作为K个样本点'''
             index = random.sample(range(0,self.x.shape[0]-1), self.K)
-            for i in range(self.K):self.u[i] = x[index[i]]
+            for i in range(self.K):self.u[i] = self.x[index[i]]
             '''使用K-Means算法迭代epochs轮'''
             for ep in range(epochs):
                 self.Classify()
