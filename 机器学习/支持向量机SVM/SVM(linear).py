@@ -50,6 +50,6 @@ class SVM(object):
 mat = loadmat('data2.mat')
 x = mat['X']
 y = mat['y']
-s = SVM(C=100, kernel='rbf', sigma=0.01)
+s = SVM(C=100, kernel='rbf', sigma=0.1)
 s.Train(x,y)
 s.Show_Boundary(x,y)
