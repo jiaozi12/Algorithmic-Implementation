@@ -19,4 +19,4 @@ image README.md中使用到的图片
 
 梯度下降公式
 
-![image]()
+![image](https://github.com/jiaozi12/Algorithmic-Implementation/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/images/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%85%AC%E5%BC%8F.png)
