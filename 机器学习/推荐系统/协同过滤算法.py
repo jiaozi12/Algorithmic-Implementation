@@ -78,17 +78,10 @@ mat = loadmat('movies.mat')
 
 '''Y[i][j]代表电影i,观众j的评分(0~5,0表示未评分),R[i][j]==1表示电影i,观众j对其有评分,==0表示未评价'''
 Y, R = mat['Y'], mat['R']
-m = loadmat('movieParams.mat')
-X = m['X']
-print(X.shape)
-TH = m['Theta']
-lmda = 0.1
-loss = np.sum(np.square((X.dot(TH.T)-Y))[np.where(R==1)])/2 + lmda*0.5*np.sum(np.power(TH,2)) + lmda*0.5*np.sum(np.power(X,2))
-print('loss:',loss)
 
 C = CoordinationFit(Y=Y, R=R, Features_num=10)
 C.MeanNormalization()
-C.Train(learning_rate=0.003, lmda=0.1, epochs=10000000, display_loss=True)
+C.Train(learning_rate=0.003, lmda=0.1, epochs=10000, display_loss=True)
 print('预测观众j对电影i的评分为:',int(C.PredictStar(i=4, j=4)),'\t观众j对电影i的评分实际为',Y[4][4])
 movies=C.Recommend(i=1, num=2)
 print('与电影1类型相似的两部电影为',movies[0][0],'  ',movies[1][0])
